@@ -4,3 +4,6 @@ CREATE TABLE staff(
    ...> password TEXT NOT NULL,
    ...> job TEXT NOT NULL)
    ...> ;
+   
+      INSERT INTO staff(id, name, password, job) VALUES(0384, 'Scott', 'password', 'instore');
+   
